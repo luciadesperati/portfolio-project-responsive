@@ -1,11 +1,37 @@
 body {
-  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-family: "DM Sans", "Poppins", "Segoe UI", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #212529 !important;
 }
 
 h1 {
-  font-size: xx-large;
+  font-size: 3.5rem !important;
 }
 
 h2 {
-  font-size: large;
+  font-size: 1rem !important;
+}
+
+button {
+  border: none;
+  background-color: black;
+  font-size: 0.8rem !important;
+  font-weight: bold;
+}
+
+.hero-section {
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/image/Lucia-Desperati.jpeg"); */
+  background: linear-gradient(
+    109.6deg,
+    rgb(20, 30, 48) 11.2%,
+    rgb(36, 59, 85) 91.1%
+  );
+  height: 100vh;
 }
