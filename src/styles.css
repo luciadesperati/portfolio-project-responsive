@@ -38,29 +38,36 @@ button {
 
 .portfolio-bg-image {
   display: none;
-  height: 200px;
+  min-height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
+  border-radius: 15px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .portfolio-bg-image__pizza {
-  background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
+  background-image: url("/image/pizza.png");
 }
 .portfolio-bg-image__weather {
-  background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
+  background-image: url("/image/weather.png");
 }
 .portfolio-bg-image__valencia {
-  background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
+  background-image: url("/image/valencia.png");
 }
 .portfolio-bg-image__dictionary {
-  background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
+  background-image: url("/image/dictionary.png");
 }
 
-.placeholder-icon--square {
+.placeholder-icon--round {
   border: 1px solid black;
-  width: 60px;
-  height: 60px;
+  background-color: black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 576px) {
