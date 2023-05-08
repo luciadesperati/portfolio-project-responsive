@@ -17,11 +17,25 @@ h2 {
   font-size: 1rem !important;
 }
 
+h4 {
+  margin-bottom: 0;
+}
+
+.nav-item {
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
 button {
   border: none;
   background-color: black;
   font-size: 0.8rem !important;
   font-weight: bold;
+}
+
+.button-text {
+  color: white;
+  text-decoration: none;
 }
 
 .hero-section {
