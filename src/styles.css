@@ -33,5 +33,38 @@ button {
     rgb(20, 30, 48) 11.2%,
     rgb(36, 59, 85) 91.1%
   );
-  height: 100vh;
+  height: 80vh;
+}
+
+.portfolio-bg-image {
+  display: none;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.portfolio-bg-image__pizza {
+  background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
+}
+.portfolio-bg-image__weather {
+  background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
+}
+.portfolio-bg-image__valencia {
+  background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
+}
+.portfolio-bg-image__dictionary {
+  background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
+}
+
+.placeholder-icon--square {
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+}
+
+@media (min-width: 576px) {
+  .portfolio-bg-image {
+    display: block;
+  }
 }
